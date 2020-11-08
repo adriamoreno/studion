@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+/* Bruno falou que como regra ele quer afetar todos os elementos com o box sizing : border box */
+
+* {
+    box-sizing: border-box; /* tag usada porque dependendo do padding isso vi interferir em outros elementos e pode afetar o tamnaho de outros elementos */
+}
+
+:root { /* antes era invés de :root ---> html */
+    --color-primary: #ffc500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+body {
+    margin: 0;
+    padding-top: 7.75rem; /*Demos um valor fixo a nossa nav bar e añnadimos esse valor ao nosso bod para ver todo o conteudo */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.navbar {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 0 1rem; 
+    width: 100vw;
+    height: 7.75rem;
+    background-color: #000;/* vermelho/ verde / azul / transparencia -0 - F*/;
+    color: #FFF;
+}
+
+.navbar__links {
+    justify-self: end;
+}
+
+.navbar__links li {
+    font-size: 0.875rem;
+    margin-right: 3rem; /* Valor de 10 pixels em rem = 10/16*/
+
+}
+
+.navbar__links a {
+    font-weight: 300;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar__links a:hover {
+    color: var(--color-primary)
+}
+
+.navbar__links li{
+    font-weight: 300;
+    margin-left: 1 rem;
+}
+
+.logo-studion {
+    line-height: 1ch;
+    font-size: 2.375rem; /* ou 38 pixels = 38/16 */
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.logo-studion__subtitle {
+    font-size: 0.875rem;
+    font-weight: 300;
+    align-content: right;
+}
+
+.copy-primary {
+    color: var(--color-primary);
+}
+
+
