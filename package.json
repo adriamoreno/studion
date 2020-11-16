@@ -4,7 +4,8 @@
   "description": "This is the first project for Frontend course at Imagine schooludion",
   "main": "src /index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server src/"
   },
   "repository": {
     "type": "git",
