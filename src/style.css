@@ -264,8 +264,6 @@ ul {
     border-color: var(--color-copy);
 
 }
-
-
 .quote {
     background-image: url(./images/parallax.jpg);
     height: 677px;
@@ -318,5 +316,4 @@ min-height: 80vh;
 }
 
 
-    
-    
+   
