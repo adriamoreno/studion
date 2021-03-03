@@ -268,8 +268,6 @@ ul {
     border-color: var(--color-copy);
 
 }
-
-
 .quote {
     background-image: url(./images/parallax.jpg);
     background-attachment: fixed;
@@ -421,3 +419,4 @@ footer p {
     font-weight: 300;
     margin: 2.5rem 0 ;
 }  
+
