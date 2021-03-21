@@ -116,8 +116,7 @@
   margin-bottom: 2.5rem;
 }
 .quote {
-  background-image: url(./images/parallax.jpg);
-  height: 677px;
+  background-image: url(../images/parallax.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
