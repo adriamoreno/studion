@@ -1,0 +1,35 @@
+.btn {
+  cursor: pointer;
+  font-family: montserrat;
+  padding: 1rem 2.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 5rem;
+  background: unset;
+  color: var(--color-primary);
+  font-size: 0.9378rem /* 15 px */;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+}
+
+.btn:hover, /* para navegador desktop */
+ .btn:active, /* para navegador celular */
+ .btn:focus,
+ .btn__institutional {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn__institutional {
+  color: var(--color-copy);
+  background: unset;
+  border-color: var(--color-copy);
+}
+
+.btn__quote {
+  color: var(--color-copy);
+  border-color: #000;
+  background: unset;
+  padding: 18px;
+}
