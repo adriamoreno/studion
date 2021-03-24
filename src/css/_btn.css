@@ -15,16 +15,24 @@
 .btn:hover, /* para navegador desktop */
  .btn:active, /* para navegador celular */
  .btn:focus,
- .btn__institutional {
+ .btn__institutional,
+ .btn--contact {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
 }
 
-.btn__institutional {
+.btn__institutional:hover {
   color: var(--color-copy);
   background: unset;
+  box-shadow: 0 1rem 1rem #0006; /*x y blur, cor*/
   border-color: var(--color-copy);
+}
+
+.btn--contact:hover {
+  color: #fff;
+  background: unset;
+  border-color: var(--color-primary);
 }
 
 .btn__quote {
