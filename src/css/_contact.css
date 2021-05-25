@@ -78,3 +78,9 @@
 .contact__form button {
   float: right; /*para pequenas coisas podemos usar o float*/
 }
+
+
+.maps ,
+.maps iframe{
+  height: 36.5rem;
+}
