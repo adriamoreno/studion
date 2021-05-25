@@ -1,0 +1,46 @@
+.navbar {
+  position: absolute;
+  z-index: 1;
+  top: 0; /* fixa a nav bar no topo e na esq */
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.navbar__container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+  padding: 0 1rem;
+  /*width: 100vw; * a barra só delimitou para 1140px quando tirei esta propieda*/
+  height: 7.75rem;
+}
+
+.navbar__links {
+  justify-self: end;
+}
+
+.navbar__links li {
+  font-size: 0.875rem;
+  margin-right: 3rem; /* Valor de 10 pixels em rem = 10/16*/
+}
+
+.navbar__links a {
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar__links a.active {
+  color: var(--color-primary);
+}
+
+.navbar__links a:hover {
+  color: var(--color-primary);
+}
+
+.navbar__links li {
+  font-weight: 300;
+  margin-left: 1 rem;
+}
